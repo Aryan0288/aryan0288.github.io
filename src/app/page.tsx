@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -141,7 +139,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Sell products and services</h3>
               <p className="text-gray-600 mb-6">
-                Launch a business with a prebuilt payment page that's optimised for conversion.
+                Launch a business with a prebuilt payment page that&apos;s optimised for conversion.
               </p>
               <button className="text-blue-600 font-semibold hover:text-blue-700">
                 Start with Checkout →
@@ -228,5 +226,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  );
+  )
 }

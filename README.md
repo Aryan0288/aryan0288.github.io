@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stripe-Inspired Homepage
 
-## Getting Started
+A beautiful, responsive homepage inspired by Stripe's design, built with Next.js 15 and Tailwind CSS.
 
-First, run the development server:
+## 🎨 Features
 
+- **Modern Design**: Clean, professional design inspired by Stripe's homepage
+- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile devices
+- **Interactive Elements**: Hover effects, smooth transitions, and modern UI components
+- **Fast Performance**: Built with Next.js 15 and optimized for speed
+- **SEO Friendly**: Proper meta tags and semantic HTML structure
+
+## 🚀 Sections
+
+1. **Navigation Bar**: Clean navigation with Stripe branding
+2. **Hero Section**: Bold headline with call-to-action buttons
+3. **Dashboard Preview**: Mock financial metrics display
+4. **Products Section**: Grid showcasing Stripe's main products
+5. **Built for Growth**: Features for startups and businesses
+6. **Call-to-Action**: Final conversion section
+7. **Footer**: Complete site navigation and company info
+
+## 🛠️ Tech Stack
+
+- **Next.js 15**: React framework with App Router
+- **TypeScript**: Type-safe development
+- **Tailwind CSS v4**: Utility-first CSS framework
+- **ESLint**: Code quality and consistency
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd next-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🚀 Deployment to GitHub Pages
 
-To learn more about Next.js, take a look at the following resources:
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Setup Instructions:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Push to GitHub**: Push your code to a GitHub repository
+2. **Enable GitHub Pages**: 
+   - Go to your repository Settings
+   - Navigate to Pages section
+   - Select "GitHub Actions" as the source
+3. **Automatic Deployment**: The GitHub Actions workflow will automatically build and deploy your site when you push to the main branch
 
-## Deploy on Vercel
+### Manual Build:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The static files will be generated in the `out` directory, ready for deployment.
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css      # Global styles and Tailwind imports
+│   ├── layout.tsx       # Root layout component
+│   └── page.tsx         # Homepage component
+├── components/          # Reusable components (if any)
+└── ...
+```
+
+## 🎯 Customization
+
+- **Colors**: Update the color scheme in the Tailwind classes
+- **Content**: Modify text and images in `src/app/page.tsx`
+- **Styling**: Adjust styles in `src/app/globals.css`
+- **Layout**: Modify the component structure as needed
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
